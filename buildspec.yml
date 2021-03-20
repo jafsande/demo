@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: 2ab4e37e5ff03e732ee9f9f020a9d65e4bcdc72c
-    HOST: https://sonarcloud.io
-    Organization: jafsande
-    Project: demo_SAST_SCA
+    LOGIN: SonarCloud_Creds:sonartoken
+    HOST: SonarCloud_Creds:HOST
+    Organization: SonarCloud_Creds:Organization
+    Project: SonarCloud_Creds:Project
 phases:
   install:
     runtime-versions:
